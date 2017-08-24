@@ -1,4 +1,4 @@
-;;; green-is-the-new-black-theme.el --- A cool and minimalist green blackend theme
+;;; green-is-the-new-black-theme.el --- A cool and minimalist green blackened theme
 
 ;; Author: Fred Campos <fred.tecnologia@gmail.com>
 ;; Maintainer: Fred Campos <fred.tecnologia@gmail.com>
