@@ -1,8 +1,9 @@
-;;; greenisnewthenewblack-theme.el --- A cool and minimalist green blackend theme for Emacs.
+;;; green-is-the-new-black-theme.el --- A cool and minimalist green blackend theme
 
 ;; Author: Fred Campos <fred.tecnologia@gmail.com>
 ;; Maintainer: Fred Campos <fred.tecnologia@gmail.com>
-;; Keywords: Emacs, themes
+;; URL: https://github.com/fredcamps
+;; Keywords: faces, themes
 ;; Version: 0.0.1
 
 ;; Copyright (c) 2017 Fred Campos
@@ -22,7 +23,7 @@
 
 ;;; Commentary:
 
-;; This package provides a minimalist blackened green theme
+;; This package provides a theme with minimalist blackened green colors.
 
 ;;; Code:
 (deftheme green-is-the-new-black
