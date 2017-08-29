@@ -3,6 +3,9 @@
 Green Is The New Black is a blackened green and minimalist theme for Emacs.
 With coherent hight-light and 256color terminals support.
 
+[![MELPA](https://melpa.org/packages/green-is-the-new-black-theme-badge.svg)](https://melpa.org/#/green-is-the-new-black-theme)
+
+
 ## Screenshots
 ![green-is-the-new-black-preview-clang](screenshot-clang.png)
 ![green-is-the-new-black-preview-elisp](screenshot-elisp.png)
