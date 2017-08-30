@@ -27,5 +27,5 @@ You should install from MELPA
 Add at your emacs.d/init.el
 
 ```
-(load-theme 'green-is-the-new-black t)
+(require 'green-is-the-new-black-theme)
 ```
