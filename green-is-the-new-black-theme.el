@@ -2,7 +2,7 @@
 
 ;; Author: Fred Campos <fred.tecnologia@gmail.com>
 ;; Maintainer: Fred Campos <fred.tecnologia@gmail.com>
-;; URL: https://github.com/fredcamps
+;; URL: https://github.com/fredcamps/green-is-the-new-black-emacs
 ;; Keywords: faces, themes
 ;; Version: 0.0.1
 
@@ -154,6 +154,14 @@
    `(sml/vc ((t (:foreground, gitnb-bright-green))))
    `(sml/vc-edited ((t (:foreground, gitnb-bright-green :weight bold))))
    `(sml/battery ((t (:weight bold))))
+
+   `(smerge-base ((t (:foreground, gitnb-bright-green :background, gitnb-dark-green))))
+   `(smerge-markers ((t (:foreground, gitnb-bright-green :background, gitnb-dark-green))))
+   `(smerge-mine ((t (:foreground, gitnb-bright-green :background, gitnb-dark-green))))
+   `(smerge-other ((t (:foreground, gitnb-bright-green :background, gitnb-dark-green))))
+   `(smerge-refined-changed ((t (:foreground, gitnb-yellow :background, gitnb-dark-green))))
+   `(smerge-refined-removed ((t (:foreground, gitnb-red :background, gitnb-dark-green))))
+   `(smerge-refined-added ((t (:foreground, gitnb-bright-green :background, gitnb-dark-green))))
 
    `(which-func ((t (:foreground, gitnb-grey))))))
 
