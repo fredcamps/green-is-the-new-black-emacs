@@ -17,6 +17,7 @@ With coherent hight-light and 256color terminals support.
 * flycheck
 * ido
 * column-enforce-mode
+* smart-mode-line
 * and many others coming
 
 ## Installation
