@@ -32,7 +32,7 @@
 (let ((gitnb-black "#000000")
       (gitnb-dark-grey "#2b2b30")
       (gitnb-grey "#898989")
-      (gitnb-heavy-green "#00ffff")
+      (gitnb-heavy-green "#005f00")
       (gitnb-dark-green "#218c23")
       (gitnb-green "#0ecc11")
       (gitnb-light-green "#8dcc78")
