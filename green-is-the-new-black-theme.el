@@ -3,7 +3,6 @@
 ;; Author: Fred Campos <fred.tecnologia@gmail.com>
 ;; Maintainer: Fred Campos <fred.tecnologia@gmail.com>
 ;; URL: https://github.com/fredcamps/green-is-the-new-black-emacs
-;; Package-Version: 20180220.1332
 ;; Keywords: faces, themes
 ;; Version: 0.0.5
 
