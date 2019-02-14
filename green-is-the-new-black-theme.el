@@ -95,6 +95,7 @@
    `(diff-refine-changed ((t (:inherit diff-changed))))
    `(diff-refine-removed ((t (:inherit diff-removed))))
    `(tool-bar ((t (:background, gitnb-black :foreground, gitnb-dark-green))))
+   `(menu ((t (:background, gitnb-green :foreground, gitnb-black :box nil))))
 
    ;; -- plugins
    `(isearch ((t (:foreground, gitnb-bright-green :background, gitnb-dark-green ))))
@@ -121,7 +122,7 @@
    `(flycheck-error ((,class (:underline (:style wave :color , gitnb-red)))))
    `(flycheck-warning ((,class (:underline (:style wave :color , gitnb-yellow)))))
    `(flycheck-info ((,class (:underline (:style wave :color, gitnb-green )))))
-   
+
    `(vertical-border ((t (:foreground, gitnb-green))))
    `(info ((t (:foreground, gitnb-bright-green))))
    `(warning ((t (:foreground, gitnb-yellow))))
