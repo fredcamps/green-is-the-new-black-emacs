@@ -159,6 +159,10 @@
    `(sml/vc ((t (:foreground, gitnb-bright-green))))
    `(sml/vc-edited ((t (:foreground, gitnb-bright-green :weight bold))))
    `(sml/battery ((t (:weight bold))))
+   `(sml/projectile ((t (:foreground, gitnb-light-green ))))
+   `(sml/filename ((t (:foreground, gitnb-green))))
+   `(sml/read-only ((t (:foreground, gitnb-grey))))
+   `(sml/position-percentage ((t (:foreground, gitnb-grey))))
 
    `(smerge-base ((t (:foreground, gitnb-bright-green :background, gitnb-dark-green))))
    `(smerge-markers ((t (:foreground, gitnb-bright-green :background, gitnb-dark-green))))
