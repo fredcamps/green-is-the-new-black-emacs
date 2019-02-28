@@ -96,10 +96,10 @@
    `(diff-refine-removed ((t (:inherit diff-removed))))
    `(tool-bar ((t (:background, gitnb-black :foreground, gitnb-dark-green))))
    `(menu ((t (:background, gitnb-green :foreground, gitnb-black :box nil))))
-   `(tty-menu-selected-face ((t  (:background, gitnb-heavy-green :foreground, gitnb-grey :weight bold))))
+   `(tty-menu-selected-face ((t  (:background, gitnb-bright-green :foreground, gitnb-black :weight bold))))
    `(tty-menu-enabled-face ((t  (:background, gitnb-green :foreground, gitnb-black))))
-   `(tty-menu-disabled-face ((t  (:background, gitnb-green :foreground, gitnb-yellow))))
-   
+   `(tty-menu-disabled-face ((t  (:background, gitnb-grey :foreground, gitnb-black))))
+
    ;; -- plugins
    `(isearch ((t (:foreground, gitnb-bright-green :background, gitnb-dark-green ))))
    `(isearch-fail ((t (:foreground, gitnb-red :background, gitnb-black ))))
