@@ -163,6 +163,8 @@
    `(sml/filename ((t (:foreground, gitnb-green))))
    `(sml/read-only ((t (:foreground, gitnb-grey))))
    `(sml/position-percentage ((t (:foreground, gitnb-grey))))
+   `(sml/prefix  ((t (:foreground, gitnb-light-green))))
+   `(sml/process ((t (:foreground, gitnb-light-green))))
 
    `(smerge-base ((t (:foreground, gitnb-bright-green :background, gitnb-dark-green))))
    `(smerge-markers ((t (:foreground, gitnb-bright-green :background, gitnb-dark-green))))
