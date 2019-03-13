@@ -174,6 +174,8 @@
    `(smerge-refined-removed ((t (:inherit diff-removed))))
    `(smerge-refined-added ((t (:inherit diff-added))))
 
+   `(lsp-face-highlight-write ((t (:foreground, gitnb-black :background, gitnb-bright-green))))
+
    `(js2-external-variable ((t (:foreground, gitnb-yellow))))
    `(js2-private-function-call ((t (:foreground, gitnb-yellow))))
    `(js2-error ((t (:foreground, gitnb-yellow))))
