@@ -122,9 +122,9 @@
 
    `(ido-indicator ((t (:background, gitnb-dark-green :foreground, gitnb-black))))
 
-   `(flycheck-error ((,class (:underline (:style wave :color , gitnb-red)))))
-   `(flycheck-warning ((,class (:underline (:style wave :color , gitnb-yellow)))))
-   `(flycheck-info ((,class (:underline (:style wave :color, gitnb-green )))))
+   `(flycheck-error ((t (:underline, gitnb-red :foreground, gitnb-red))))
+   `(flycheck-warning ((t (:underline, gitnb-yellow :foreground, gitnb-yellow))))
+   `(flycheck-info ((t (:underline, gitnb-bright-green :foreground, gitnb-bright-green))))
 
    `(vertical-border ((t (:foreground, gitnb-green))))
    `(info ((t (:foreground, gitnb-bright-green))))
@@ -178,7 +178,7 @@
 
    `(js2-external-variable ((t (:foreground, gitnb-yellow))))
    `(js2-private-function-call ((t (:foreground, gitnb-yellow))))
-   `(js2-error ((t (:foreground, gitnb-yellow))))
+   `(js2-error ((t (:foreground, gitnb-red))))
 
    `(which-func ((t (:foreground, gitnb-grey))))))
 
