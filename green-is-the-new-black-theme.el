@@ -97,6 +97,9 @@
    `(tool-bar ((t (:background, gitnb-black :foreground, gitnb-dark-green))))
    `(menu ((t (:background, gitnb-green :foreground, gitnb-black :box nil))))
    `(visible-bell ((t (:foreground, gitnb-black :background, gitnb-bright-green))))
+   `(tty-menu-selected-face ((t  (:background, gitnb-bright-green :foreground, gitnb-black :weight bold))))
+   `(tty-menu-enabled-face ((t  (:background, gitnb-green :foreground, gitnb-black))))
+   `(tty-menu-disabled-face ((t  (:background, gitnb-grey :foreground, gitnb-black))))
 
    ;; -- plugins
    `(isearch ((t (:foreground, gitnb-bright-green :background, gitnb-dark-green ))))
@@ -120,9 +123,9 @@
 
    `(ido-indicator ((t (:background, gitnb-dark-green :foreground, gitnb-black))))
 
-   `(flycheck-error ((,class (:underline (:style wave :color , gitnb-red)))))
-   `(flycheck-warning ((,class (:underline (:style wave :color , gitnb-yellow)))))
-   `(flycheck-info ((,class (:underline (:style wave :color, gitnb-green )))))
+   `(flycheck-error ((t (:underline, gitnb-red :foreground, gitnb-red))))
+   `(flycheck-warning ((t (:underline, gitnb-yellow :foreground, gitnb-yellow))))
+   `(flycheck-info ((t (:underline, gitnb-bright-green :foreground, gitnb-bright-green))))
 
    `(vertical-border ((t (:foreground, gitnb-green))))
    `(info ((t (:foreground, gitnb-bright-green))))
@@ -157,6 +160,12 @@
    `(sml/vc ((t (:foreground, gitnb-bright-green))))
    `(sml/vc-edited ((t (:foreground, gitnb-bright-green :weight bold))))
    `(sml/battery ((t (:weight bold))))
+   `(sml/projectile ((t (:foreground, gitnb-light-green ))))
+   `(sml/filename ((t (:foreground, gitnb-green))))
+   `(sml/read-only ((t (:foreground, gitnb-grey))))
+   `(sml/position-percentage ((t (:foreground, gitnb-grey))))
+   `(sml/prefix  ((t (:foreground, gitnb-light-green))))
+   `(sml/process ((t (:foreground, gitnb-light-green))))
 
    `(doom-visual-bell ((t (:foreground, gitnb-black :background, gitnb-bright-green))))
 
@@ -168,9 +177,11 @@
    `(smerge-refined-removed ((t (:inherit diff-removed))))
    `(smerge-refined-added ((t (:inherit diff-added))))
 
+   `(lsp-face-highlight-write ((t (:foreground, gitnb-black :background, gitnb-bright-green))))
+
    `(js2-external-variable ((t (:foreground, gitnb-yellow))))
    `(js2-private-function-call ((t (:foreground, gitnb-yellow))))
-   `(js2-error ((t (:foreground, gitnb-yellow))))
+   `(js2-error ((t (:foreground, gitnb-red))))
 
    `(which-func ((t (:foreground, gitnb-grey))))))
 
