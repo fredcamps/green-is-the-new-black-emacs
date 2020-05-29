@@ -96,6 +96,7 @@
    `(diff-refine-removed ((t (:inherit diff-removed))))
    `(tool-bar ((t (:background, gitnb-black :foreground, gitnb-dark-green))))
    `(menu ((t (:background, gitnb-green :foreground, gitnb-black :box nil))))
+   `(visible-bell ((t (:foreground, gitnb-black :background, gitnb-bright-green))))
 
    ;; -- plugins
    `(isearch ((t (:foreground, gitnb-bright-green :background, gitnb-dark-green ))))
@@ -157,6 +158,8 @@
    `(sml/vc-edited ((t (:foreground, gitnb-bright-green :weight bold))))
    `(sml/battery ((t (:weight bold))))
 
+   `(doom-visual-bell ((t (:foreground, gitnb-black :background, gitnb-bright-green))))
+
    `(smerge-base ((t (:foreground, gitnb-bright-green :background, gitnb-dark-green))))
    `(smerge-markers ((t (:foreground, gitnb-bright-green :background, gitnb-dark-green))))
    `(smerge-mine ((t (:foreground, gitnb-bright-green :background, gitnb-dark-green))))
@@ -170,6 +173,14 @@
    `(js2-error ((t (:foreground, gitnb-yellow))))
 
    `(which-func ((t (:foreground, gitnb-grey))))))
+
+
+;;;###autoload
+(and load-file-name
+     (boundp 'custom-theme-load-path)
+     (add-to-list 'custom-theme-load-path
+                  (file-name-as-directory
+                   (file-name-directory load-file-name))))
 
 
 (provide-theme 'green-is-the-new-black)
