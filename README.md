@@ -18,6 +18,7 @@ With coherent hight-light and 256color terminals support.
 * ido
 * column-enforce-mode
 * smart-mode-line
+* doom-mode-line
 * and many others coming
 
 ## Installation
@@ -29,5 +30,5 @@ You should install from MELPA
 Add at your emacs.d/init.el
 
 ```
-(require 'green-is-the-new-black-theme)
+(load-theme 'green-is-the-new-black-theme t)
 ```
