@@ -4,9 +4,9 @@
 ;; Maintainer: Fred Campos <fred.tecnologia@gmail.com>
 ;; URL: https://github.com/fredcamps/green-is-the-new-black-emacs
 ;; Keywords: faces, themes
-;; Version: 0.0.6
+;; Version: 1.0.0
 
-;; Copyright (c) 2017 Fred Campos
+;; Copyright (c) 2017-2021 Fred Campos
 
 ;; This program is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -182,6 +182,10 @@
    `(js2-external-variable ((t (:foreground, gitnb-yellow))))
    `(js2-private-function-call ((t (:foreground, gitnb-yellow))))
    `(js2-error ((t (:foreground, gitnb-red))))
+
+   `(diff-hl-change ((t (:background, gitnb-yellow))))
+   `(diff-hl-delete ((t (:background, gitnb-red))))
+   `(diff-hl-insert ((t (:background, gitnb-green))))
 
    `(which-func ((t (:foreground, gitnb-grey))))))
 
