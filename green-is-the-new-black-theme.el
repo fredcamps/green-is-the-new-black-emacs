@@ -50,6 +50,7 @@
    `(cursor  ((t (:background, gitnb-dark-green :weight bold))))
    `(hl-line ((t (:background, gitnb-black :weight bold))))
    `(mode-line ((t (:box nil, :background, gitnb-black :foreground, gitnb-dark-green))))
+   `(mode-line-emphasis ((t (:background, gitnb-black :foreground, gitnb-yellow))))
    `(mode-line-inactive ((t (:inherit mode-line :background, gitnb-black :foreground, gitnb-grey :box nil))))
    `(fringe ((t (:background, gitnb-dark-grey))))
    `(region ((t (:background, gitnb-heavy-green :foreground, gitnb-light-green))))
